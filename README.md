@@ -12,9 +12,16 @@ Depois, o usuário escolherá o atributo que deseja comparar:
 
 ![image](https://github.com/user-attachments/assets/aa9e431a-9b14-4cfc-bbcf-d37ce327abd3)
 
-No Super Trunfo, a carta com maior atributo comparado vence:
+### Comparação
+
+No Super Trunfo, a carta com *`maior atributo comparado`* vence:
 
 ![image](https://github.com/user-attachments/assets/34d24598-b338-4b95-be5f-818f7fc3ccbd)
 
-Exceto pela densidade populacional. Neste caso, o menor vence:
+Exceto pela *`densidade populacional`*. Neste caso, o *`menor`* vence:
+
+![image](https://github.com/user-attachments/assets/e62e40b6-7351-4f93-9e2f-0ad6d48ef000)
+
+O *`poder`* é um atributo único de cada carta, sendo a *`soma`* de *`todos os outros atributos`* *`menos`* a *`densidade populacional`*:
+
 
