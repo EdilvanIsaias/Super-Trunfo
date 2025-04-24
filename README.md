@@ -24,4 +24,19 @@ Exceto pela *`densidade populacional`*. Neste caso, o *`menor`* vence:
 
 O *`poder`* é um atributo único de cada carta, sendo a *`soma`* de *`todos os outros atributos`* *`menos`* a *`densidade populacional`*:
 
+![image](https://github.com/user-attachments/assets/415a0a68-d27c-4992-87ad-2341a58ba9d9)
 
+## Extra
+
+A versão extra tem algumas funcionalidades a mais, já que `não é necessário informar apenas duas cartas`:
+
+
+
+Caso digite mais de duas cartas, poderá escolher qual carta deseja comparar:
+
+
+
+A parte de comparação é exatamente igual a versão padrão:
+
+
+OBS: Execute *`apenas uma`* versão separadamente, sem *`linkar`* uma à outra para evitar erros.
