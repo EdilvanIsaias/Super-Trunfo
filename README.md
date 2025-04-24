@@ -38,6 +38,7 @@ Caso digite *`mais de duas cartas`*, poderá escolher qual carta deseja comparar
 
 A parte de comparação é exatamente igual a versão padrão:
 
+![image](https://github.com/user-attachments/assets/5a8064e5-6a99-42c3-931b-b2df01234652)
 
 
-OBS: Execute *`apenas uma`* versão separadamente, sem *`linkar`* uma à outra para evitar erros.
+### OBS: Execute *`apenas uma`* versão separadamente, sem *`linkar`* uma à outra para evitar erros.
