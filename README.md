@@ -30,13 +30,14 @@ O *`poder`* é um atributo único de cada carta, sendo a *`soma`* de *`todos os 
 
 A versão extra tem algumas funcionalidades a mais, já que `não é necessário informar apenas duas cartas`:
 
+![image](https://github.com/user-attachments/assets/4eed3f55-1823-4d1a-b601-9735e65d7d24)
 
+Caso digite *`mais de duas cartas`*, poderá escolher qual carta deseja comparar:
 
-Caso digite mais de duas cartas, poderá escolher qual carta deseja comparar:
-
-
+![image](https://github.com/user-attachments/assets/588793df-331f-4ef5-be25-b96b5ae1286f)
 
 A parte de comparação é exatamente igual a versão padrão:
+
 
 
 OBS: Execute *`apenas uma`* versão separadamente, sem *`linkar`* uma à outra para evitar erros.
