@@ -19,20 +19,22 @@ typedef struct Carta
 
 //Alvo de comparacao
 int alvo1, alvo2;
+alvo1 = 1;
+alvo2 = 2;
 
 //Funcao para comparar as structs
 void comparar(double a, double b)
 {
     printf("\n");
-    (a > b) ? printf("CARTA 1 VENCEU\n") :
-    (a < b) ? printf("CARTA 2 VENCEU\n") :
+    (a > b) ? printf("CARTA %d VENCEU\n", alvo1) :
+    (a < b) ? printf("CARTA %d VENCEU\n", alvo2) :
     printf("EMPATE\n");
 }
 void compararD(double a, double b)
 {
         printf("\n");
-    (a > b) ? printf("CARTA 2 VENCEU\n") :
-    (a < b) ? printf("CARTA 1 VENCEU\n") :
+    (a > b) ? printf("CARTA %d VENCEU\n", alvo2) :
+    (a < b) ? printf("CARTA %d VENCEU\n", alvo1) :
     printf("EMPATE\n");
 }
 
@@ -50,7 +52,7 @@ int main()
     int carta1, carta2;
 
     //Repeticao para o numero de cartas desejadas
-    printf("Quantas cartas? \n");
+    printf("Quantas cartas? ");
     scanf(" %d", &quant);
     buf();
 
@@ -60,7 +62,7 @@ int main()
     {
 
         //Definicao de cada carta
-        printf("Carta %d: \n", i + 1);
+        printf("\nCarta %d: \n", i + 1);
 
         printf("Estado: ");
         scanf(" %c", &c[i].estado);
@@ -96,11 +98,7 @@ int main()
         buf();
 
         //Poder da carta
-        c[i].poder = c[i].populacao + c[i].area + c[i].pib +
-
-                     c[i].turist + c[i].capita - c[i].densi;
-        printf("Poder: %.2f", c[i].poder);
-        printf("\n");
+        c[i].poder = c[i].populacao + c[i].area + c[i].pib + c[i].turist + c[i].capita - c[i].densi;
 
     }
     int atributo;
@@ -213,7 +211,7 @@ int main()
     else if (quant > 2)
     {
 
-        printf("Digite o numero da primeira carta ");
+        printf("\nDigite o numero da primeira carta ");
         scanf("%d", &carta1);
         buf();
 
